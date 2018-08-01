@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "606675362191",
+    "firebase_url": "https://admob-app-id-4049261595.firebaseio.com",
+    "project_id": "admob-app-id-4049261595",
+    "storage_bucket": "admob-app-id-4049261595.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:606675362191:android:f2483e639037d1cd",
+        "android_client_info": {
+          "package_name": "br.danieltiburciosf.rankingfutebol"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "606675362191-h441c4dm5p8f22p8t6f633cee8efoidv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrOjK2Vk0LPIJEWziAGrZILdu5IQ2vTy0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

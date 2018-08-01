@@ -1,0 +1,35 @@
+<resources>
+    <string name="a">a</string>
+    <string name="app_name">Ranking do Futebol</string>
+    <string name="aprov">Aproveitamento</string>
+    <string name="aprove">Aproveit</string>
+    <string name="artilh">Artilheiros</string>
+    <string name="ataque">Melhor Ataque</string>
+    <string name="banner_ad_unit_id">ca-app-pub-7390880956140424/7523663599</string>
+    <string name="campe">Campeões</string>
+    <string name="campest">Títulos por Estado/País</string>
+    <string name="classi">Classif</string>
+    <string name="clube">Clube</string>
+    <string name="derrotas">Derrotas</string>
+    <string name="empates">Empates</string>
+    <string name="estado">Estado/País</string>
+    <string name="gola">Gols por Ano</string>
+    <string name="golcon">Gols Con</string>
+    <string name="golma">Mais Gols por Ano</string>
+    <string name="golme">Média de Gols por Ano</string>
+    <string name="golpro">Gols Pró</string>
+    <string name="invict">Invictos</string>
+    <string name="jogos">Jogos</string>
+    <string name="maiscam">Maiores Campeões</string>
+    <string name="maispar">Mais Participações</string>
+    <string name="martilh">Maiores Artilheiros</string>
+    <string name="media">Média</string>
+    <string name="periodo">Período de</string>
+    <string name="ponto">Pontos</string>
+    <string name="pontos">Pontuação</string>
+    <string name="ranki">Ranking 1º ao 10º</string>
+    <string name="saldo">Melhor Saldo de Gols</string>
+    <string name="saldos">Saldo</string>
+    <string name="vitor">Mais Vitórias</string>
+    <string name="vitorias">Vitórias</string>
+</resources>

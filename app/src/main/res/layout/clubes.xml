@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="1dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="50dp"
+            android:layout_height="80dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/anoc"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="18"
+                android:background="@drawable/celula"
+                android:gravity="center"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/celula"
+                    android:gravity="center"
+                    android:text="@string/classi"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/celula"
+                    android:gravity="center"
+                    android:text="@string/ponto"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/celula"
+                    android:gravity="center"
+                    android:text="@string/jogos"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/celula"
+                    android:gravity="center"
+                    android:text="@string/vitorias"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/celula"
+                    android:gravity="center"
+                    android:text="@string/empates"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/classc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/celula"
+                    android:gravity="center"
+                    android:textColor="@color/MediumSeaGreen"/>
+
+                <TextView
+                    android:id="@+id/pontoc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/celula"
+                    android:gravity="center"
+                    android:textColor="@color/MediumSeaGreen"/>
+
+                <TextView
+                    android:id="@+id/jogoc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/celula"
+                    android:gravity="center"
+                    android:textColor="@color/MediumSeaGreen"/>
+
+                <TextView
+                    android:id="@+id/vitoriac"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/celula"
+                    android:gravity="center"
+                    android:textColor="@color/MediumSeaGreen"/>
+
+                <TextView
+                    android:id="@+id/empatec"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/celula"
+                    android:gravity="center"
+                    android:textColor="@color/MediumSeaGreen"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/celula"
+                    android:gravity="center"
+                    android:text="@string/derrotas"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/celula"
+                    android:gravity="center"
+                    android:text="@string/golpro"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/celula"
+                    android:gravity="center"
+                    android:text="@string/golcon"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/celula"
+                    android:gravity="center"
+                    android:text="@string/saldos"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/celula"
+                    android:gravity="center"
+                    android:text="@string/aprove"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/derrotac"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/celula"
+                    android:gravity="center"
+                    android:textColor="@color/Red"/>
+
+                <TextView
+                    android:id="@+id/golproc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/celula"
+                    android:gravity="center"
+                    android:textColor="@color/MediumSeaGreen"/>
+
+                <TextView
+                    android:id="@+id/golconc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/celula"
+                    android:gravity="center"
+                    android:textColor="@color/Red"/>
+
+                <TextView
+                    android:id="@+id/saldoc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/celula"
+                    android:gravity="center"
+                    android:textColor="@color/MediumSeaGreen"/>
+
+                <TextView
+                    android:id="@+id/aprovc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/celula"
+                    android:gravity="center"
+                    android:textColor="@color/MediumSeaGreen"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/observc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/celula"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/artilhec"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/celula"
+        android:gravity="center"/>
+
+</LinearLayout>

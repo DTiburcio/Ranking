@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/lilar"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/titulRank"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/celula"
+            android:gravity="center"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/amareloClaro"
+            android:baselineAligned="false"
+            android:orientation="horizontal">
+
+            <ListView
+                android:id="@+id/lvRank"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            </ListView>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/rodaper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/celula"
+            android:gravity="center"
+            android:text="Dá 10 pontos ao campeão, 9 ao vice, etc, até dar 1 ponto ao 10º colocado"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lilar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/amareloClaro"
+        android:orientation="horizontal">
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adViewr"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            ads:adSize="BANNER"
+            android:layout_gravity="center_horizontal|center_vertical"
+            ads:adUnitId = "@string/banner_ad_unit_id">
+        </com.google.android.gms.ads.AdView>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,305 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ScrollView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/amareloClaro"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="17dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/amareloClaro"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/amareloClaro"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/ll"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/periodo"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textIsSelectable="true"/>
+
+                        <Spinner
+                            android:id="@+id/ano1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:layout_gravity="clip_vertical"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/a"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textIsSelectable="true"/>
+
+                        <Spinner
+                            android:id="@+id/ano2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:layout_gravity="fill_vertical"
+                            android:layout_marginStart="1dp"
+                            android:layout_marginLeft="7dp"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal">
+
+                        <RadioGroup
+                            android:id="@+id/opcoes1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal">
+
+                            <RadioButton
+                                android:id="@+id/opc_pont"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:checked="true"
+                                android:text="@string/pontos"/>
+
+                            <RadioButton
+                                android:id="@+id/opc_ataq"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:checked="false"
+                                android:text="@string/ataque"/>
+
+                            <RadioButton
+                                android:id="@+id/opc_sald"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:checked="false"
+                                android:text="@string/saldo"/>
+
+                            <RadioButton
+                                android:id="@+id/opc_vito"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:checked="false"
+                                android:text="@string/vitor"/>
+
+                            <RadioButton
+                                android:id="@+id/opc_apro"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:checked="false"
+                                android:text="@string/aprov"/>
+
+                            <RadioButton
+                                android:id="@+id/opc_esta"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:checked="false"
+                                android:text="@string/estado"/>
+
+                            <RadioButton
+                                android:id="@+id/opc_rank"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:checked="false"
+                                android:text="@string/ranki"/>
+
+                            <RadioButton
+                                android:id="@+id/opc_camp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:checked="false"
+                                android:text="@string/campe"/>
+
+                            <RadioButton
+                                android:id="@+id/opc_mcam"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:checked="false"
+                                android:text="@string/maiscam"/>
+
+                            <RadioButton
+                                android:id="@+id/opc_camest"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:checked="false"
+                                android:text="@string/campest"/>
+
+                            <RadioButton
+                                android:id="@+id/opc_part"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:checked="false"
+                                android:text="@string/maispar"/>
+
+                            <RadioButton
+                                android:id="@+id/opc_invi"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:checked="false"
+                                android:text="@string/invict"/>
+
+                            <RadioButton
+                                android:id="@+id/opc_arti"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:checked="false"
+                                android:text="@string/artilh"/>
+
+                            <RadioButton
+                                android:id="@+id/opc_mart"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:checked="false"
+                                android:text="@string/martilh"/>
+
+                            <RadioButton
+                                android:id="@+id/opc_gola"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:checked="false"
+                                android:text="@string/gola"/>
+
+                            <RadioButton
+                                android:id="@+id/opc_golma"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:checked="false"
+                                android:text="@string/golma"/>
+
+                            <RadioButton
+                                android:id="@+id/opc_golme"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:checked="false"
+                                android:text="@string/golme"/>
+
+                            <RadioButton
+                                android:id="@+id/opc_club"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:checked="false"
+                                android:text="@string/clube"/>
+
+                        </RadioGroup>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/labclube"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="5"
+                                android:layout_marginStart="1dp"
+                                android:layout_marginLeft="7dp"
+                                android:text="@string/clube"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textIsSelectable="true"
+                                android:visibility="gone"/>
+
+                            <Spinner
+                                android:id="@+id/clube"
+                                android:layout_weight="1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:layout_gravity="fill_vertical"
+                                android:layout_marginStart="1dp"
+                                android:layout_marginLeft="7dp"
+                                android:visibility="gone"/>
+
+                        </LinearLayout>
+
+                        <AutoCompleteTextView
+                            android:id="@+id/pesquisa"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:hint="Pesquise seu time"
+                            android:visibility="gone"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lila2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/amareloClaro"
+                android:orientation="vertical">
+
+                <com.google.android.gms.ads.AdView
+                    android:id="@+id/adView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    ads:adSize="BANNER"
+                    ads:adUnitId="@string/banner_ad_unit_id">
+                </com.google.android.gms.ads.AdView>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

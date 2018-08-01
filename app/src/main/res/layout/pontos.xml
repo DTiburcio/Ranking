@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="1dp">
+
+    <LinearLayout
+        android:id="@+id/linhano"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/anop"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/celula"
+            android:gravity="center"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/clubes"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/celula"
+            android:gravity="center"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/figurinha"
+            android:layout_width="1dp"
+            android:layout_height="wrap_content"
+            android:visibility="gone"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/layescudo"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/escudo"
+                android:layout_width="0dp"
+                android:layout_height="78dp"
+                android:layout_marginStart="1dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginTop="1dp"
+                android:layout_weight="1"
+                android:background="@drawable/celula"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/celula"
+                    android:gravity="center"
+                    android:text="@string/ponto"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/celula"
+                    android:gravity="center"
+                    android:text="@string/jogos"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/celula"
+                    android:gravity="center"
+                    android:text="@string/vitorias"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/celula"
+                    android:gravity="center"
+                    android:text="@string/empates"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/celula"
+                    android:gravity="center"
+                    android:text="@string/derrotas"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/ponto"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/celula"
+                    android:gravity="center"
+                    android:textColor="@color/MediumSeaGreen"/>
+
+                <TextView
+                    android:id="@+id/jogo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/celula"
+                    android:gravity="center"
+                    android:textColor="@color/MediumSeaGreen"/>
+
+                <TextView
+                    android:id="@+id/vitoria"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/celula"
+                    android:gravity="center"
+                    android:textColor="@color/MediumSeaGreen"/>
+
+                <TextView
+                    android:id="@+id/empate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/celula"
+                    android:gravity="center"
+                    android:textColor="@color/MediumSeaGreen"/>
+
+                <TextView
+                    android:id="@+id/derrota"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/celula"
+                    android:gravity="center"
+                    android:textColor="@color/Red"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/celula"
+                    android:gravity="center"
+                    android:text="@string/golpro"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/celula"
+                    android:gravity="center"
+                    android:text="@string/golcon"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/celula"
+                    android:gravity="center"
+                    android:text="@string/saldos"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/celula"
+                    android:gravity="center"
+                    android:text="@string/aprove"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/golpro"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/celula"
+                    android:gravity="center"
+                    android:textColor="@color/MediumSeaGreen"/>
+
+                <TextView
+                    android:id="@+id/golcon"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/celula"
+                    android:gravity="center"
+                    android:textColor="@color/Red"/>
+
+                <TextView
+                    android:id="@+id/saldo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/celula"
+                    android:gravity="center"
+                    android:textColor="@color/MediumSeaGreen"/>
+
+                <TextView
+                    android:id="@+id/aprov"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/celula"
+                    android:gravity="center"
+                    android:textColor="@color/MediumSeaGreen"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/observ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/celula"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/artilhep"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/celula"
+        android:gravity="center"/>
+
+</LinearLayout>
